@@ -15,11 +15,12 @@ Mapmakers is an offline map creation tool aimed at quickly building tile-based g
 
 ## Installation
 The tool is currently under development. To try the latest version:
+It relies only on Python's built-in `tkinter` module, so no extra
+packages are required:
 
 ```bash
 git clone <repository-url>
 cd mapmakers
-pip install -r requirements.txt
 python src/main.py
 ```
 

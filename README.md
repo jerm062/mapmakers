@@ -4,7 +4,10 @@
 Mapmakers is an offline map creation tool aimed at quickly building tile-based game maps. Inspired by the classic RPG Maker interface, it features drag-and-drop editing and an optional hex grid for alternate map styles.
 
 ## Usage
-1. Start the application.
+1. Run the demo script to start the application:
+   ```bash
+   python src/main.py
+   ```
 2. Select a grid type (square or hex) from the toolbar.
 3. Add tilesets through the tileset manager. Tilesets should point to local image directories or individual sprite sheets.
 4. Draw the map by clicking tiles on the canvas.
@@ -17,7 +20,7 @@ The tool is currently under development. To try the latest version:
 git clone <repository-url>
 cd mapmakers
 pip install -r requirements.txt
-python main.py
+python src/main.py
 ```
 
 ## Contribution Guidelines
